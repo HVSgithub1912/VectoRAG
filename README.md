@@ -341,6 +341,14 @@ std::string genModel = "llama3.2:1b";   // change this
 Recompile and restart.
 
 ---
+## 💡 Key Technical Highlights
+
+- Implemented HNSW, KD-Tree, and Brute Force search algorithms in C++.
+- Supports cosine similarity, Euclidean distance, and Manhattan distance.
+- Integrated Ollama for local text embeddings and LLM-based answer generation.
+- Built a RAG pipeline that retrieves relevant document chunks before generating answers.
+- Exposed database and RAG operations through a REST API.
+- Built a web interface for semantic search and algorithm comparison.
 
 ## License
 
